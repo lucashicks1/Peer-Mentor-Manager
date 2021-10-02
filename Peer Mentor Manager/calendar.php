@@ -24,8 +24,8 @@ function sendmail($email, $fname, $lname, $message, $subject)
         $mail->isSMTP(); // Set mailer to use SMTP
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true; // Enable SMTP authentication
-        $mail->Username = 'gtdigisol2020@gmail.com'; // SMTP username
-        $mail->Password = 'securepassword'; // SMTP password
+        $mail->Username = 'EMAIL'; // SMTP username
+        $mail->Password = 'PASSWORD'; // SMTP password
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
